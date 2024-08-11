@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+.A>img {
+    width: 1.7rem;
+    margin-right: 1.3rem;
+    height: 1.7rem;
+    align-items: center;
+    justify-content: center;
+}
+.AA > img {
+    margin-right: 1rem;
+    height: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.Ab {
+    width: 3rem;
+    margin-right: 2rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#A1 {
+    margin-right: 2.4rem;
+    margin-top: 1em;
+    width: 1.7rem;
+    height: 1.7rem;
+    line-height: 1rem;
+}
+
+.page {
+    display: flex;
+}
+
+.navdrawer {
+    width: 350px;
+    height: 45.6rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0em;
+    background-color: rgb(23, 60, 91);
+}
+
+.navdrawer>img {
+    display: flex;
+    padding-left: 1em;
+}
+
+.dashboard {
+    padding-left: 3em;
+    padding-top: 1em;
+}
+
+.dashboard ul li {
+    list-style: none;
+    padding: 1rem 0rem 0.1rem 0rem;
+}
+
+.dashboard button {
+    margin: 1rem 0rem 1rem 1rem;
+    width: 11rem;
+    height: 2.5rem;
+    border: none;
+    background-color: #09223f;
+    border-radius: 12px;
+    font-size: 1.2rem;
+}
+
+.hr {
+    width: 14rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.container {
+    background-color: #0c1826;
+    width: 75rem;
+}
+
+.hr1 {
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    opacity: 0.4;
+}
+
+.topnav {
+    display: flex;
+    vertical-align: middle;
+    justify-content: end;
+}
+
+.topnav p {
+    padding: 1.2rem;
+}
+
+.dashboarditem {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    margin: 1rem;
+    gap: 4.5rem;
+    align-items: center;
+    width: auto;
+}
+
+#db {
+    display: flex;
+    padding: 1.3rem;
+    background-color: rgb(23, 60, 91);
+    border-radius: 10px;
+    margin-top: -15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboarditem p {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+}
+
+#dbi h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.search {
+    margin-left: 9rem;
+    display: flex;
+    margin-top: 2.5rem;
+    background-color: #09223f;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.search1 {
+    display: flex;
+    margin-top: 2.5rem;
+    background-color: #09223f;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#sb1>select {
+    background-color: #09223f;
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#sb>img {
+    width: 20px;
+    margin-top: 10px;
+    margin-left: 1rem;
+}
+
+#sb>input {
+    background-color: #09223f;
+    border: none;
+    width: 9rem;
+    padding: 1rem;
+}
+
+input {
+    margin-top: 2px;
+}
+
+.graph {
+    display: flex;
+    margin-left: 2rem;
+    height: 21rem;
+}
+
+.graph p{
+    display: flex;
+    width: 20rem;
+    margin-left: 13rem;
+    margin-top: -1rem;
+    font-size: 10px;
+}
+.table {
+    display: flex;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    width: 20rem;
+    margin: 2rem;
+    margin-left: 8rem;
+    align-items: center;
+    justify-content: center;
+  }
+  tbody{
+    border: 1px solid white;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
+  #t1{
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #09223f;
+  }
+  thead,
+  tfoot {
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    font-size: 1rem;
+  }
+  
+  th,
+  td {
+    padding: 8px 10px;
+  }
+      
+  tfoot th {
+    text-align: right;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  

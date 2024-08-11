@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+.A>img {
+    width: 1.7rem;
+    margin-right: 5rem;
+    height: 1.7rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.AA>img {
+    height: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.Ab {
+    width: 3rem;
+    margin-right: 2rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#A1 {
+    margin-right: 2.4rem;
+    margin-top: 1em;
+    width: 1.7rem;
+    height: 1.7rem;
+    line-height: 1rem;
+}
+
+.page {
+    display: flex;
+}
+
+.navdrawer {
+    width: 100px;
+    height: 45.6rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0em;
+    background-color: rgb(23, 60, 91);
+}
+
+.navdrawer>img {
+    display: flex;
+    padding: 2em 2em 0em 2em;
+}
+
+.dashboard {
+    margin: 0rem;
+    padding: 2em;
+}
+
+.dashboard ul li {
+    list-style: none;
+    padding: 1rem 0rem 0.1rem 0rem;
+}
+
+.dashboard button {
+    margin: 1rem 0rem 0.5rem 0rem;
+    padding: 1px;
+    width: 45px;
+    height: 2.5rem;
+    border: none;
+    background-color: #09223f;
+    border-radius: 12px;
+    font-size: 2rem;
+}
+
+.hr {
+    width: 14rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.container {
+    background-color: #0c1826;
+    width: 90rem;
+}
+
+.hr1 {
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+    opacity: 0.4;
+}
+
+.topnav {
+    display: flex;
+    vertical-align: middle;
+    justify-content: end;
+}
+
+.topnav p {
+    padding: 1.2rem;
+}
+
+.dashboarditem {
+    padding: 1rem;
+    margin: 0.5rem;
+    gap: 4.5rem;
+    align-items: center;
+    width: 12rem;
+}
+
+#db {
+    border-radius: 5px;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+#db select {
+    background-color: #09223f77;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#db label {
+    font-size: 10px;
+    opacity: 0.5;
+}
+
+#db input {
+    color: white;
+    background-color: #09223f77;
+    border: none;
+    padding: 6px;
+    width: 9rem;
+}
+
+#dbq {
+    padding: 5px;
+    margin-top: 20px;
+}
+#dbq input,label{
+    font-size: small;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+#sb1 {
+    margin-top: 10px;
+}
+
+#sb1>select {
+    width: 12rem;
+}
+
+#sb>img {
+    width: 20px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#sb>input {
+    background-color: #09223f77;
+    border: none;
+    border-radius: 5px;
+    width: 8rem;
+    padding: 1rem;
+}
+
+input {
+    margin-top: 2px;
+}
+
+.detail {
+    display: flex;
+    margin-left: 13rem;
+    margin-top: -37rem;
+}
+
+.detail p,button {
+    display: flex;
+    width: 18rem;
+    margin-left: 56rem;
+    margin-top: -1rem;
+    background-color:#0c1826;
+    border: none;
+    height: 1.7rem;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+
+.D>img {
+    height: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table {
+    border-collapse: collapse;
+    font-family: sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    width: 70rem;
+    margin-top: 1rem;
+    margin-left: 13rem;
+    align-items: center;
+    justify-content: center;
+}
+
+tbody {
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+}
+
+#t1 {
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #09223f;
+}
+
+thead,
+tfoot {
+    display: inline-flexbox;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    font-size: 1.2rem;
+}
+
+th,
+td {
+    padding: 19px 12px;
+}
+thead tr {
+    text-align: center;
+    font-size: small;
+  }
+
+#button1{
+display: flex;
+color: black;
+}

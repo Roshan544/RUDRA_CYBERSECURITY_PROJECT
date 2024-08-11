@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/ellipse_1.png">
+    <title>Audit Trail dashboard -2 - RUDRA CYBERSECURITY</title>
+    <link rel="stylesheet" href="Audit Trail dashboard - 2.css">
+</head>
+
+<body>
+    <div class="page">
+        <div class="navdrawer">
+            <img src="/images/ATD.svg" alt="">
+            <div class="dashboard">
+                <h3 class="A"><img src="/images/dashboard.png" alt=""></h3>
+                <ul>
+                    <li class="A"><img src="/images/building.png" alt=""></li>
+                    <li class="A"><img src="/images/cruise_ship.png" alt=""></li>
+                    <li class="A"><img src="/images/router.png" alt=""></li>
+                    <li class="A"><img src="/images/firewall.png" alt=""></li>
+                    <li class="A"><img src="/images/users.png" alt=""></li>
+                    <li class="A"><img src="/images/audit.png" alt=""></li>
+                    <li class="A"><img src="/images/accounting.png" alt=""></li>
+                    <li class="A"><img src="/images/User_icon.png" alt=""></li>
+
+                    <button class="AA"><img src="/images/plus-solid (1).svg" alt=""></button>
+
+                    <div class="hr">
+                        <hr>
+                    </div>
+                    <ul>
+                        <li class="A"><img src="/images/profile_icon.png" alt=""></li>
+                        <li class="A"><img src="/images/logout_icon.png" alt=""></li>
+                    </ul>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="topnav">
+                <p>John doe</p>
+                <img id="A1" src="/images/ellipse_11.gif" alt="">
+            </div>
+            <div class="hr1">
+                <hr>
+            </div>
+            <div class="dashboarditem">
+                <h1>Audit Trail</h1>
+                <div class="Category" id="db">
+                    <div id="dbi" class="de">
+                        <h4>Category</h4>
+                        <div id="sb1" class="te">
+                            <select name="data" id="data-select">
+                                <option value="Select an option"></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hr1">
+                    <br>
+                    <hr>
+                </div>
+
+                <div class="Action" id="dbq">
+                    <div id="dbi" class="hs">
+                        <h4>Action</h4>
+                        <div id="sb11">
+                            <input type="checkbox" id="Create" name="Create" />
+                            <label for="Create">Create</label><br>
+                            <input type="checkbox" id="Delete" name="Delete" />
+                            <label for="Delete">Delete</label><br>
+                            <input type="checkbox" id="Update" name="Update" />
+                            <label for="Update">Update</label><br>
+                            <input type="checkbox" id="Download" name="Download" />
+                            <label for="Download">Download</label><br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hr1">
+                    <br>
+                    <hr>
+                </div>
+
+                <div class="User" id="db">
+                    <div id="dbi" class="or">
+                        <h4>User</h4>
+                        <div class="searchbar" id="dbd">
+                            <div id="sb" class="te">
+                                <img src="/images/magnifying-glass-solid.svg" alt="">
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hr1">
+                    <br>
+                    <hr>
+                </div>
+
+                <div class="Date" id="db">
+                    <div id="dbi" class="fl">
+                        <h4>Date</h4><br>
+                        <label for="start">
+                            Start date:
+                        </label>
+                        <br>
+                        <input type="date" id="start" name="trip-start" value="2018-07-22" min="2000-01-01"
+                            max="2050-12-31" />
+
+                        <br><br>
+                        <label for="last">
+                            Last date:
+                        </label>
+                        <br>
+                        <input type="date" id="last" name="trip-last" value="2018-07-22" min="2000-01-01"
+                            max="2050-12-31" />
+                    </div>
+                </div>
+
+                <div class="detail">
+                    <div class="D" id="download">
+                        <img src="/images/filter-solid.svg" alt="">
+                        <button class="D"><img src="/images/download-solid.svg" alt="">Download Log</button>
+                    </div>
+                </div>
+                <div class="table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>
+                                    Time
+                                </td>
+                                <td>
+                                    Description
+                                </td>
+                                <td>
+                                    Event
+                                </td>
+                                <td>
+                                    Category
+                                </td>
+                                <td>
+                                    Performaed By
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="t1">
+                                <td>11/02/24, 02:33 PM</td>
+                                <td>Admin user Roshann Agarwal with the role Tenant Admin was created</td>
+                                <td>Create</td>
+                                <td>Admin</td>
+                                <td>Fletcher Fernandes</td>
+                            </tr>
+                            <tr id="t2">
+                                <td>11/02/24, 01:52 PM</td>
+                                <td> A firewall rule allowing traffic from IP addresses to be accepted was created.</td>
+                                <td>Create</td>
+                                <td>Firewall Rule</td>
+                                <td>Sachin Gowda</td>
+                            </tr>
+                            <tr id="t1">
+                                <td>11/02/24, 01:23 PM</td>
+                                <td>Certificate downloaded for router Tranquil Sea.</td>
+                                <td>Download</td>
+                                <td>Router Certificate</td>
+                                <td>Mukesh Sai Kumar</td>
+                            </tr>
+                            <tr id="t2">
+                                <td>11/02/24, 01:11 PM</td>
+                                <td>Hotspot user John Doe was deleted from router Mianzimu (HCQ083QNSNF).</td>
+                                <td>Delete</td>
+                                <td>Hotspot User
+                                </td>
+                                <td>Vishal Dubey
+                                </td>
+                            </tr>
+                            <tr id="t1">
+                                <td>11/02/24, 01:01 PM</td>
+                                <td>Firewall template Dualog was deleted
+                                </td>
+                                <td>Delete</td>
+                                <td>Firewall Template
+                                </td>
+                                <td>Vishal Dubey
+                                </td>
+                            </tr>
+                            <tr id="t2">
+                                <td>11/02/24, 12:58 PM</td>
+                                <td> New router RUDRA23 (FF044QNSNF) was created
+                                </td>
+                                <td>Update</td>
+                                <td>Router</td>
+                                <td>Karan Sajnani
+                                </td>
+                            </tr>
+                            <tr id="t1">
+                                <td>11/02/24, 12:58 PM</td>
+                                <td>New router RUDRA23 (FF044QNSNF) was created
+                                </td>
+                                <td>Create</td>
+                                <td>Router</td>
+                                <td>Karan Sajnani
+                                </td>
+                            </tr>
+                            <tr id="t2">
+                                <td>11/02/24, 12:58 PM</td>
+                                <td> New router RUDRA23 (FF044QNSNF) was created
+                                </td>
+                                <td>Create</td>
+                                <td>Router</td>
+                                <td>Karan Sajnani
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
